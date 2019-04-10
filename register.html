@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SCPG | Register</title>
+</head>
+<body>
+    <!-- POST prevents the query string from showing up in the URL -->
+    <!-- GET is the default method, which can reveal personal info -->
+    <form method="POST">
+        Name (optional): <input type="text" name="username"><br>
+        Email (required): <input type="email" name="email" required><br><br>
+        Birthday: <input type="date" name="birthday"><br><br>
+        Favorite Meal:<br>
+        <input type="radio" name="meal" value="breakfast">Breakfast<br>
+        <input type="radio" name="meal" value="lunch">Lunch<br>
+        <input type="radio" name="meal" value="dinner">Dinner<br><br>
+        How do you game?<br>
+        <select>
+            <option value="ps4" name="ps4">PS4</option>
+            <option value="xbox" name="xbox">XBOX</option>
+            <option value="pc" name="pc">PC</option>
+        </select><br><br>
+        Schrodinger's Check Box<br>
+        <input type="checkbox" name="yes" checked>Yes<br>
+        <input type="checkbox" name="no" checked>No<br><br>
+        <input type="submit" value="Join Up">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+</html>
