@@ -1,0 +1,17 @@
+body {
+    color: lightgrey;
+    background-color: rgb(27, 27, 27);
+}
+
+/* h1 {
+    text-align: center;
+} */
+
+a {
+    text-decoration: none;
+}
+
+ul#menu li {
+    display: inline;
+    margin-right: 40px;
+}
