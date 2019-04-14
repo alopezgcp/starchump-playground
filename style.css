@@ -1,11 +1,21 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
     color: lightgrey;
     background-color: rgb(27, 27, 27);
 }
 
-/* h1 {
-    text-align: center;
-} */
+button {
+    font-family: inherit;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(27, 27, 27);
+    color: lightgrey;
+    cursor: pointer;
+    margin-left: 33px;
+}
 
 a {
     text-decoration: none;
